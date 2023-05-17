@@ -71,5 +71,7 @@ tasks.named('test') {
 }
 
 jar {
-	enabled = false
+    manifest {
+        attributes "Main-Class": "$buildDir\\libs\\backend-desapp-api-0.0.1-SNAPSHOT-plain.jar"
+    }
 }
