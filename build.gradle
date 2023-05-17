@@ -69,3 +69,9 @@ tasks.withType(KotlinCompile) {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class': '$buildDir\\libs\\backend-desapp-api-0.0.1-SNAPSHOT-plain.jar'
+    }
+}
