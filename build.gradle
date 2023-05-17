@@ -71,7 +71,6 @@ tasks.named('test') {
 }
 
 jar {
-	enabled = false
     manifest {
         attributes 'Main-Class': 'src.main.kotlin.ar.edu.unq.desapp.grupog.backenddesappapi.BackendDesappApiApplication'
     }
