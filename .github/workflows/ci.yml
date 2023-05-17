@@ -40,3 +40,4 @@ jobs:
         distribution: 'temurin'
     - name: Run Unit Tests
       run: ./gradlew test
+      working-directory: backend-desapp-api
