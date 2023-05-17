@@ -5,58 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4843dad1-8251-4803-919c-c071461a8dc0" name="Changes" comment="change build gradle file">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/BackendDesappApiApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/ServletInitializer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/CryptoActive.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/CryptoActiveName.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/Intention.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/Transaction.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/User.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/BadAddressException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/BadBankDataException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/ExternalUserActionException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/InvalidEmailException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/InvalidNameAttempException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/InvalidPasswordException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/SameUserException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/trx/ActionOnEndedTransactionException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/trx/UnableActionException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/CheckingBehavior.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/EndedBehavior.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/TrxStateBehavior.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/WaitingBehavior.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStatus.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxType.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/persistence/IntentionDAO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/persistence/UserDAO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/CrudService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/IntentionService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/UserService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/impl/IntentionServiceImpl.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/impl/UserServiceImpl.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/RestController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/UserController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/dtos/IntentionDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/dtos/UserDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/mappers/UserMapper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/BackendDesappApiApplicationTests.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/IntentionTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/TransactionTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/UserTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/WorkflowTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/service/UserServiceTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/utils/IntentionBuilder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/utils/TransactionBuilder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/utils/UserBuilder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-desapp-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/backend-desapp-api/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
