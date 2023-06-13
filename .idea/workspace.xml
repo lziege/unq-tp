@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b1835fe-c128-44c6-8508-240b1af41d53" name="Changes" comment="Elimino archivos de anterior tp">
+    <list default="true" id="3b1835fe-c128-44c6-8508-240b1af41d53" name="Changes" comment="Fix variables de entorno">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -60,10 +60,13 @@
       <ExternalSystemSettings>
         <option name="env">
           <map>
-            <entry key="MONGO_DATABASE" value="epersOnline" />
-            <entry key="MONGO_URL" value="mongodb://localhost:27017/epersOnline" />
+            <entry key="MONGODB_DATABASE" value="epersOnline" />
+            <entry key="MONGODB_HOST" value="localhost" />
+            <entry key="MONGODB_PORT" value="27017" />
+            <entry key="MYSQL_DATABASE" value="deploy" />
+            <entry key="MYSQL_HOST" value="localhost" />
             <entry key="MYSQL_PASSWORD" value="root" />
-            <entry key="MYSQL_URL" value="mysql://localhost:3306/deploy?createDatabaseIfNotExist=true&amp;serverTimezone=UTC" />
+            <entry key="MYSQL_PORT" value="3306" />
             <entry key="MYSQL_USER" value="root" />
           </map>
         </option>
@@ -108,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686643158230</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix variables de entorno">
+      <created>1686643740803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686643740803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Elimino archivos de anterior tp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elimino archivos de anterior tp" />
+    <MESSAGE value="Fix variables de entorno" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix variables de entorno" />
   </component>
 </project>
