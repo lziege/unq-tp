@@ -10,13 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
-      MYSQL_HOST: ${{ secrets.MYSQL_HOST }}
-      MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }}
-      MYSQL_PORT: ${{ secrets.MYSQL_PORT }}
+      MYSQL_URL: ${{ secrets.MYSQL_URL }}
       MYSQL_USER: ${{ secrets.MYSQL_USER }}
-      MONGODB_HOST: ${{ secrets.MONGODB_HOST }}
-      MONGODB_PORT: ${{ secrets.MONGODB_PORT }}
+      MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }}
+      MONGODB_URL: ${{ secrets.MONGODB_URL }}
       MONGODB_DATABASE: ${{ secrets.MONGODB_DATABASE }}
 
     services:
