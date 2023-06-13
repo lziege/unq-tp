@@ -4,67 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b1835fe-c128-44c6-8508-240b1af41d53" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3b1835fe-c128-44c6-8508-240b1af41d53" name="Changes" comment="Elimino archivos de anterior tp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/release-notes-1.0.0.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/BackendDesappApiApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/ServletInitializer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/CryptoActive.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/CryptoActiveName.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/Intention.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/Transaction.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/User.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/BadAddressException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/BadBankDataException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/ExternalUserActionException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/InvalidEmailException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/InvalidNameAttempException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/InvalidPasswordException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/SameUserException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/trx/ActionOnEndedTransactionException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/trx/UnableActionException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/CheckingBehavior.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/EndedBehavior.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/TrxStateBehavior.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/WaitingBehavior.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStatus.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxType.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/persistence/IntentionDAO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/persistence/UserDAO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/CrudService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/IntentionService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/UserService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/impl/IntentionServiceImpl.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/impl/UserServiceImpl.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/RestController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/UserController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/dtos/IntentionDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/dtos/UserDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/mappers/UserMapper.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/BackendDesappApiApplicationTests.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/IntentionTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/TransactionTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/UserTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/WorkflowTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/service/UserServiceTestCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/utils/IntentionBuilder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/utils/TransactionBuilder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/utils/UserBuilder.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +101,29 @@
       <option name="presentableId" value="Default" />
       <updated>1686642632400</updated>
     </task>
+    <task id="LOCAL-00001" summary="Elimino archivos de anterior tp">
+      <created>1686643158230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686643158230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Elimino archivos de anterior tp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elimino archivos de anterior tp" />
   </component>
 </project>
