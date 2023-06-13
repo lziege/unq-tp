@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      MYSQL_DATABASE: ${env.MYSQL_DATABASE}
-      MYSQL_HOST: ${env.MYSQL_HOST}
-      MYSQL_PASSWORD: ${env.MYSQL_PASSWORD}
-      MYSQL_PORT: ${env.MYSQL_PORT}
-      MYSQL_USER: ${env.MYSQL_USER}
-      MONGODB_HOST: ${env.MONGODB_HOST}
-      MONGODB_PORT: ${env.MONGODB_PORT}
-      MONGODB_DATABASE: ${env.MONGODB_DATABASE}
+      MYSQL_DATABASE: ${{ env.MYSQL_DATABASE }}
+      MYSQL_HOST: ${{ env.MYSQL_HOST }}
+      MYSQL_PASSWORD: ${{ env.MYSQL_PASSWORD }}
+      MYSQL_PORT: ${{ env.MYSQL_PORT }}
+      MYSQL_USER: ${{ env.MYSQL_USER }}
+      MONGODB_HOST: ${{ env.MONGODB_HOST }}
+      MONGODB_PORT: ${{ env.MONGODB_PORT }}
+      MONGODB_DATABASE: ${{ env.MONGODB_DATABASE }}
 
     services:
       mysql:
