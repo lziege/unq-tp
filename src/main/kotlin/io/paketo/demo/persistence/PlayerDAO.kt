@@ -1,0 +1,9 @@
+package io.paketo.demo.persistence
+
+import io.paketo.demo.model.Player
+import org.springframework.data.jpa.repository.JpaRepository
+import org.springframework.stereotype.Repository
+
+@Repository
+interface PlayerDAO : JpaRepository<Player, Long> {
+}
