@@ -4,9 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4843dad1-8251-4803-919c-c071461a8dc0" name="Changes" comment="change build gradle file">
+    <list default="true" id="3b1835fe-c128-44c6-8508-240b1af41d53" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release-notes-1.0.0.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/BackendDesappApiApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/ServletInitializer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/CryptoActive.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/CryptoActiveName.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/Intention.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/Transaction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/User.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/BadAddressException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/BadBankDataException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/ExternalUserActionException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/InvalidEmailException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/InvalidNameAttempException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/InvalidPasswordException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/SameUserException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/trx/ActionOnEndedTransactionException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/exceptions/trx/UnableActionException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/CheckingBehavior.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/EndedBehavior.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/TrxStateBehavior.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStateClasses/WaitingBehavior.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxStatus.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/model/trxHelpers/TrxType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/persistence/IntentionDAO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/persistence/UserDAO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/CrudService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/IntentionService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/UserService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/impl/IntentionServiceImpl.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/service/impl/UserServiceImpl.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/RestController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/UserController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/dtos/IntentionDTO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/dtos/UserDTO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/webservice/mappers/UserMapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/BackendDesappApiApplicationTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/IntentionTestCase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/TransactionTestCase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/UserTestCase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/model/WorkflowTestCase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/service/UserServiceTestCase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/utils/IntentionBuilder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/utils/TransactionBuilder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ar/edu/unq/desapp/grupog/backenddesappapi/test/utils/UserBuilder.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,80 +75,28 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-    <projectState path="$PROJECT_DIR$/backend-desapp-api">
-      <ProjectState />
-    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$/backend-desapp-api">
-          <activation />
-        </task>
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="backend-desapp-api" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="backend-desapp-api" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="backend-desapp-api" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="backend-desapp-api" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin File" />
-        <option value="Kotlin Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -98,61 +104,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2OLv7pa5RvAGKBbCu8C82yYV5Dp" />
+  <component name="ProjectId" id="2R8rd0WBYTl5kfJud7oAXoJKvqo" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.C:/Users/User/Desktop/Lucas/Universidad/Desarrollo de aplicaciones/unq-tp [build]">
-    <configuration name="C:/Users/User/Desktop/Lucas/Universidad/Desarrollo de aplicaciones/unq-tp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager">
+    <configuration name="Tests in 'demo.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
+        <option name="env">
+          <map>
+            <entry key="MONGO_DATABASE" value="epersOnline" />
+            <entry key="MONGO_URL" value="mongodb://localhost:27017/epersOnline" />
+            <entry key="MYSQL_PASSWORD" value="root" />
+            <entry key="MYSQL_URL" value="mysql://localhost:3306/deploy?createDatabaseIfNotExist=true&amp;serverTimezone=UTC" />
+            <entry key="MYSQL_USER" value="root" />
+          </map>
         </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'ar.edu.unq.desapp.grupog.backend-desapp-api'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/backend-desapp-api" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'backend-desapp-api'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
@@ -172,97 +144,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="backend-desapp-api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/backend-desapp-api" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="All in backend-desapp-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-desapp-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="devapps-CriptoP2P" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="devapps-CriptoP2P" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Gradle.backend-desapp-api [build]" />
-      <item itemvalue="Gradle.C:/Users/User/Desktop/Lucas/Universidad/Desarrollo de aplicaciones/unq-tp [build]" />
-      <item itemvalue="Gradle.Tests in 'ar.edu.unq.desapp.grupog.backend-desapp-api'" />
-      <item itemvalue="Gradle.Tests in 'backend-desapp-api'" />
-      <item itemvalue="JUnit.All in backend-desapp-api" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.C:/Users/User/Desktop/Lucas/Universidad/Desarrollo de aplicaciones/unq-tp [build]" />
-        <item itemvalue="Gradle.Tests in 'backend-desapp-api'" />
-        <item itemvalue="Gradle.backend-desapp-api [build]" />
-        <item itemvalue="Gradle.Tests in 'ar.edu.unq.desapp.grupog.backend-desapp-api'" />
-        <item itemvalue="JUnit.All in backend-desapp-api" />
+        <item itemvalue="Gradle.Tests in 'demo.test'" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4843dad1-8251-4803-919c-c071461a8dc0" name="Changes" comment="" />
-      <created>1681352511944</created>
+      <changelist id="3b1835fe-c128-44c6-8508-240b1af41d53" name="Changes" comment="" />
+      <created>1686642632400</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681352511944</updated>
+      <updated>1686642632400</updated>
     </task>
-    <task id="LOCAL-00001" summary="change build gradle file">
-      <created>1681353452570</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681353452570</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="change build gradle file" />
-    <option name="LAST_COMMIT_MESSAGE" value="change build gradle file" />
   </component>
 </project>
