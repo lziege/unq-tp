@@ -1,0 +1,11 @@
+.Eleccion {
+    border-radius: 5rem;
+    margin: 0.5em;
+}
+
+.EleccionGanadora {
+    border-radius: 5rem;
+    margin: 0.5em;
+    border-collapse: collapse;
+    border: 5px solid rgb(216, 136, 17);
+}

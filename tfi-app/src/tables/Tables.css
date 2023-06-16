@@ -1,0 +1,16 @@
+.TablePlayer {
+    height: 100px;
+    width: 15rem;
+    margin: 1rem auto;
+    border-collapse: collapse;
+    border: 5px solid rgb(94, 83, 241);
+}
+
+thead th,
+tbody td {
+    border: 5px solid rgb(94, 83, 241);
+}
+
+.TablaFinalizada {
+    margin: 1rem;
+}

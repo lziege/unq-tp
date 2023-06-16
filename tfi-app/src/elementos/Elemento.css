@@ -1,0 +1,22 @@
+.Elementos {
+    background-color: #1a6d0f;
+    align-items: center;
+    float: left;
+}
+
+.ElementoSeleccionable {
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 5rem;
+    box-shadow: 0 9px #999;
+}
+
+.ElementoSeleccionable:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.Elemento {
+    margin: 0.5em;
+    border-radius: 5rem;
+}
