@@ -8,6 +8,18 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
+    services:
+      mongodb:
+        image: mongo
+        ports:
+          - 27017:27017
+      neo4j:
+        image: neo4j:latest
+        env:
+          NEO4J_AUTH: neo4j/rootroot
+        ports:
+          - 7687:7687
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -23,3 +35,9 @@ jobs:
         
       - name: Build and test
         run: ./gradlew test
+        env:
+          SQL_URL: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false
+          SQL_USER: sa
+          SQL_PASSWORD: password
+          HIBERNATE_DIALECT: org:hibernate:dialect:H2Dialect
+          SQL_DRIVER: org:h2:Driver
