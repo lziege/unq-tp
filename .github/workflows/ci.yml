@@ -9,6 +9,13 @@ jobs:
     runs-on: ubuntu-latest
 
     services:
+      mysql:
+        image: mysql:8.0.33
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: deploy
+        ports:
+          - 3306:3306
       mongodb:
         image: mongo
         ports:
@@ -35,9 +42,3 @@ jobs:
         
       - name: Build and test
         run: ./gradlew test
-        env:
-          SQL_URL: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false
-          SQL_USER: sa
-          SQL_PASSWORD: password
-          HIBERNATE_DIALECT: org:hibernate:dialect:H2Dialect
-          SQL_DRIVER: org:h2:Driver
